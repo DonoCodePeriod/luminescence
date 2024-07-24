@@ -13,57 +13,109 @@ The best dating app in the world.
 ## Project Structure
 
 luminescence/
+
 │
+
 ├── luminescence-backend/
+
 │ ├── src/
+
 │ │ ├── models/
+
 │ │ │ └── User.ts
+
 │ │ ├── routes/
+
 │ │ │ └── auth.ts
+
 │ │ ├── middleware/
+
 │ │ │ ├── authMiddleware.ts
+
 │ │ │ ├── errorHandler.ts
+
 │ │ │ ├── rateLimiter.ts
+
 │ │ │ └── logger.ts
+
 │ │ └── index.ts
+
 │ ├── .env
+
 │ ├── tsconfig.json
+
 │ ├── package.json
+
 │ ├── package-lock.json
+
 │ └── README.md
+
 │
+
 ├── luminescencefrontend/
+
 │ ├── src/
+
 │ │ ├── screens/
+
 │ │ │ ├── LoginScreen.tsx
+
 │ │ │ ├── RegisterScreen.tsx
+
 │ │ │ └── ProfileScreen.tsx
+
 │ │ ├── navigation/
+
 │ │ │ └── AppNavigator.tsx
+
 │ │ ├── api/
+
 │ │ │ └── auth.ts
+
 │ │ └── App.tsx
+
 │ ├── tsconfig.json
+
 │ ├── package.json
+
 │ ├── package-lock.json
+
 │ └── README.md
+
 │
+
 ├── luminescence-web/
+
 │ ├── src/
+
 │ │ ├── components/
+
 │ │ │ ├── Login.tsx
+
 │ │ │ ├── Register.tsx
+
 │ │ │ └── Profile.tsx
+
 │ │ ├── api/
+
 │ │ │ └── auth.ts
+
 │ │ ├── App.tsx
+
 │ │ └── index.tsx
+
 │ ├── public/
+
 │ │ └── index.html
+
 │ ├── tsconfig.json
+
 │ ├── package.json
+
 │ ├── package-lock.json
+
 │ └── README.md
+
 └── README.md
 
 ## UI Diagram
